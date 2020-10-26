@@ -1,0 +1,27 @@
+$green: #626780;
+$grey: #696A86;
+
+@mixin dm400{
+  font-family: 'DM Serif Display', serif;
+  font-weight: 400;
+}
+@mixin rub700 {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+}
+@mixin pop300{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+}
+@mixin pop400{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+@mixin pop500{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+}
+@mixin pop600{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+}
