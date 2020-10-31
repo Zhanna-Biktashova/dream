@@ -12,11 +12,24 @@
 }
 .menu{
   margin-bottom: 196px;
+
   &__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 120px;
+    &-btn{
+      display: none;
+      width: 30px;
+      cursor: pointer;
+      div{
+        background-color: #9B9BCA;
+        height: 4px;
+        & + div{
+          margin-top: 5px;
+        }
+      }
+    }
     .logo{
       display: flex;
       align-items: center;
@@ -531,9 +544,12 @@
       line-height: 20px;
     }
     &-rate{
+      margin-top: 7px;
       font-size: 12px;
       line-height: 30px;
       color: #9D9D9D;
+      display: flex;
+      align-items: center;
     }
   }
 }
@@ -629,6 +645,7 @@
     padding-bottom: 70px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
   }
   &__item{
     &-title{
@@ -668,3 +685,7 @@
 }
 
 // end footer 
+
+
+
+@import '_media';

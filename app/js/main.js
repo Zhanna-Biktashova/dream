@@ -24,8 +24,14 @@ $(function(){
     nextArrow: '<button class="slick-arrow slick-next"><img src="images/slider-next.svg" alt=""></button>',
   });
 
-  // $('.menu__btn').on('click', function () {
-  //   $('.menu__inner').slideToggle();
-  // });
+  $(".rate-star").rateYo({
+    rating: 5,
+    starWidth: "15px",
+    readOnly: true
+  });
+
+  $('.menu__inner-btn').on('click', function () {
+    $('.menu__list').slideToggle();
+  });
 
 });
